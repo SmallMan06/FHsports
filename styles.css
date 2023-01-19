@@ -1,5 +1,5 @@
 body{
-    /* margin: 0; */
+    margin: 0;
 }
 header {
     display: flex;
@@ -10,5 +10,9 @@ header {
     padding-left: 20px;
 }
 .header-right {
-    padding-right: 20px;
+    padding-right: 120px;
+}
+.header-right a {
+    text-decoration: none;
+    color: grey;
 }
