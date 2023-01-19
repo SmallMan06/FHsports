@@ -5,6 +5,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #C11A16;
 }
 .header-left {
     padding-left: 20px;
