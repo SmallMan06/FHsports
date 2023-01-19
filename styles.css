@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    color: white;
+    font-family: 'Kanit', sans-serif;
 }
 header {
     display: flex;
@@ -7,13 +9,57 @@ header {
     justify-content: space-between;
     background-color: #C11A16;
 }
+.logo-img{
+    width: 50px;
+}
+/* left header */
 .header-left {
     padding-left: 20px;
+    display: flex;
+    align-items: center;
 }
+.header-left h1 {
+    padding-left: 20px;
+}
+.header-left h2 {
+    padding-left: 20px;
+    z-index: 3;
+}
+/* right header */
 .header-right {
     padding-right: 120px;
 }
 .header-right a {
     text-decoration: none;
-    color: grey;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    transition: 1s;
+}
+.header-right a:hover{
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.skewed-header{
+    position: relative;
+    height: 170px;
+    overflow: hidden;
+}
+.skewed-section{
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    transform: skewY(-6deg);
+    background-color: #C11A16;
+    transform-origin: top left;
+}
+.stadium{
+    width: 80%;
+    margin-top: -170px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
 }
