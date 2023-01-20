@@ -68,9 +68,32 @@ header {
     color: #000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .section-left,.section-right{
     text-align: center;
-    padding: 0 50px;
+    padding: 40px 50px;
+    color: #000;
+    background-color: #C11A16;
+    border-radius: 15px;
+    width: 12%;
+}
+.section-left a,.section-right a, h3{
+    color: #fff;
+    text-decoration: none;
+}
+.section-right p a {
+    color: #C11A16;
+}
+
+.h60{
+    height: 60px;
+}
+
+footer{
+    background-color: #C11A16;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
