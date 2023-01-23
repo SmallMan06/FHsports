@@ -126,6 +126,7 @@ header {
     border-radius: 10px;
     padding: 10px 30px;
     width: 50%;
+    background-color: lightgray;
 }
 .article-wrapper-left h1 a{
     color: #000;
