@@ -115,7 +115,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    margin-top: 8px;
 }
 .article-wrapper{
     display: flex;
@@ -123,18 +123,37 @@ header {
     align-items: center;
     color: #000;
     border: solid 2px #000;
-    border-radius: 10px;
     padding: 10px 30px;
-    width: 50%;
-    background-color: lightgray;
+    width: 80%;
 }
 .article-wrapper-left h1 a{
     color: #000;
 }
 
-
-
-
+.iframe-section{
+    display: flex;
+    justify-content: center;
+}
+.article-container{
+    padding: 20px 200px;
+}
+.article-container p{
+    color: #000;
+    letter-spacing: 0.5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.about-text-container{
+    padding: 20px 200px;
+}
+.about-text-container p{
+    color: #fff;
+    letter-spacing: 2.5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: justify;
+    margin-top: -550px;
+}
 
 /* footer CSS */
 footer{
