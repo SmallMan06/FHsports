@@ -90,6 +90,7 @@ header {
 
 .section-left:hover, .section-right:hover{
     letter-spacing: 0.35px;
+    border-radius: 25px;
 }
 
 .section-left a,.section-right a, h3{
@@ -129,6 +130,19 @@ header {
 .article-wrapper-left h1 a{
     color: #000;
 }
+.article-wrapper-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-left-left{
+    padding-right: 20px;
+}
+.article-img{
+    width: 100px;
+}
+
+
 
 .iframe-section{
     display: flex;
