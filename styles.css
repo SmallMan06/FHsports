@@ -150,7 +150,8 @@ header {
     justify-content: center;
 }
 .article-container{
-    padding: 20px 200px;
+    padding: 40px 200px;
+    color: #000;
 }
 .article-container p{
     color: #000;
@@ -175,7 +176,12 @@ header {
 .article-text-header{
     text-decoration: underline;
 }
-
+.article-container h1{
+    text-align: center;
+}
+.works-cited{
+    font-size: 15px !important;
+}
 
 .stadiums{
     width: 80%;
