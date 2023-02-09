@@ -63,7 +63,7 @@ header {
 }
 
 .stadium{
-    width: 80%;
+    width: 1200px;
     margin-top: -170px;
 }
 .img-container{
@@ -181,11 +181,11 @@ header {
     text-align: center;
 }
 .works-cited{
-    font-size: 15px !important;
+    font-size: 15px;
 }
 
 .stadiums{
-    width: 80%;
+    width: 1200px;
     margin-top: -170px;
 }
 
@@ -198,12 +198,34 @@ footer{
     justify-content: space-between;
 }
 
-@media screen and (min-width: 480px) {
-    .stadium{
-        width: 80%;
-        margin-top: -100px;
+@media screen and (max-width: 500px) {
+    .stadium, .stadiums{
+        min-width: 500px;
+        margin-top: -80px;
     }
-    /* body{
-        /* font-size: 0.7em; */
-    /* } */
+    body{
+        font-size: 0.7em;
+    }
+    .about-text-container{
+        width: 90%;
+        margin-left: -180px;
+        margin-top: 270px;
+        margin-bottom: -210px;
+    }
+    .about-text-container p{
+        font-size: 1.5em;
+    }
+    .article-container p{
+        font-size: 1em;
+    }
+    .article-container{
+        width: 130px;
+        margin-left: -50px;
+    }
+    .works-cited p{
+        font-size: 0.6em;
+    }
+    .header-right a{
+        padding: 2px 20px;
+    }
 }
